@@ -1,0 +1,45 @@
+.route {
+    font-family: Open Sans;
+}
+
+.route__content__item {
+    border: 1px solid #3363AF;
+    max-width: 344px;
+    min-height: 293px;
+    border-radius: 0 50px 0 42px;
+}
+
+.route__content__list {
+    gap: 40px;
+}
+
+li {
+    list-style-type: disc;
+}
+
+.route__content__title {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    color: #3363AF;
+}
+
+.route__list {
+ gap: 30px;
+}
+
+.route__item-1 {
+    flex-basis: 40%;
+}
+
+.route__list__img {
+    top: 20%;
+    left: -35%;
+    opacity: 0.1;
+    width: 523px;
+    height: 523px;
+    z-index: 111111;
+}
+

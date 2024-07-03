@@ -1,0 +1,169 @@
+.main__menu {
+    height: 63px;
+    background-color: #F5F5F5;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.42px;
+    text-align: center;
+    color: #262626;
+}
+
+.main__menu ul .active {
+    color: #022255;
+    text-decoration: underline;
+}
+
+/* phần introduce */
+
+.introduce__title {
+    font-family: Open Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 64.42px;
+    text-align: left;
+    color: #3363AF;
+}
+
+.introduce__item__text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+    color: #000000;
+}
+
+/* phần location */
+
+.location__content__item {
+    gap: 20px;
+}
+
+.location__img {
+    position: absolute;
+    right: 46px;
+    top: 40%;
+}
+
+.location__img-2 {
+    position: absolute;
+    right: 46px;
+    top: 30%;
+}
+
+.location__content__item .small-font {
+    font-family: Open Sans;
+}
+
+.location__content__text {
+    font-weight: 600;
+}
+
+/* phần zoning */
+
+.zoning__text {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+/* phần giám đốc */
+.manager {
+    background-image: url(../img/hand-holding-tree-blur-green-nature\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.manager__content {
+    gap: 50px;
+}
+
+.manager__content__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: #FBFBFB;
+}
+
+.manager__content__name {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+}
+
+.manager__content__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #FBFBFB;
+}
+
+.manager__img {
+    width: 205px;
+    height: 156px;
+    position: absolute;
+    right: -30px;
+}
+
+/* phần thanks */
+
+.thanks {
+    font-family: Open Sans;
+    background-color: rgb(255, 214, 214, 0.1);
+}
+
+.thanks__content {
+    max-width: 1000px;
+}
+
+.thanks__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 43.2px;
+}
+
+.thanks__name {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 57.6px;
+    color: #3363AF;
+}
+
+.thanks__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.thanks img {
+    width: 673px;
+    height: 647px;
+    opacity: 0.1;
+    top: 0;
+    right: 0;
+}
+
+/* phần introduce-img */
+
+.introduce-img {
+    padding: 100px 0;
+    font-family: Open Sans;
+}
+
+/* phần distribution  */
+
+.distribution {
+    background-color: rgb(51, 99, 175, 0.1);
+    padding: 100px 0;
+}
+
+.distribution__img {
+    right: -39px;
+    bottom: -58px;
+}

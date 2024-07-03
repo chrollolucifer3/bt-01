@@ -1,0 +1,28 @@
+.environment {
+    font-family: Open Sans;
+}
+
+.environment__title {
+    color: #3363AF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    padding: auto 0;
+}
+
+.environment__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: black;
+}
+
+.environment__content {
+    gap: 20px;
+}
+
+.environment__item {
+    max-width: 49%;
+}

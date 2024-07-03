@@ -1,0 +1,12 @@
+.detail {
+    max-width: 958px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+.detail__title {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.68px;
+    text-align: left;
+}
