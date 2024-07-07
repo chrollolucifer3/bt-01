@@ -1,63 +1,101 @@
-
-
-.center {
-    display: flex;
-    justify-content: center;
-}
-.slick-slide {
-    height: 153px!important;
-    width: 153px!important;
-    margin: 0 42px;
+.detail .slick-slide {
+    padding: 10px 5px;
 }
 
-.slick-list {
-    margin: 0 -42px;
-    padding: 0!important;
-    width: 100%!important;
-    height: 200px;
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+    color: #3363AF;
 }
 
-.slick-track {
-    height: 200px;
+.slick-prev {
+    left: -40px;
+}
+
+.partner-slide div>feImage {
+    object-fit: cover;
+}
+
+.evaluate__card .slick-slide {
+    padding: 60px 20px 10px 20px ;
+}
+
+.evaluate__card .slick-slide img {
+    display:unset;
+}
+
+.zoning-slide .slick-slide {
+    padding: 10px 20px;
+}
+
+.zoning-slide .slick-slide div {
+    height: 100px;
     display: flex;
     align-items: center;
-}
-
-.slick-center {
-    width: 200px!important;
-    height: 200px!important;
-}
-.slick-center .product__items {
-    border: 5px solid #3363AF!important; 
-    width: 200px!important;
-    height: 200px!important;
 }
 
 .slick-prev:before {
     content: "\f104";
     font-family: "FontAwesome"; 
-    font-size: 36px!important;
+    font-size: 28px!important;
     line-height: 1;
     color: #3363AF !important; 
+    border: 1px solid #3363AF;
+    border-radius: 50%;
+    padding: 2px 8px;
 }
 
 .slick-next:before {
     content: "\f105";
     font-family: "FontAwesome";
-    font-size: 36px!important;
+    font-size: 28px!important;
     line-height: 1;
     color: #3363AF !important; 
+    border: 1px solid #3363AF;
+    border-radius: 50%;
+    padding: 2px 8px;
 }
 
-.slick-next, .slick-prev {
-    bottom: -30px!important;
-    top: auto !important; /* Loại bỏ giá trị top hiện tại */
+.product .slick-slide {
+    div {
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.slick-next {
-    right: 40%!important;
+.product .slick-next {
+    bottom: -40px!important;
+    top: auto !important;
+    right: 40%;
+    transform: translate(-40%, 0);
+
 }
 
-.slick-prev {
-    left: 40%!important;
+.product .slick-next:before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    font-size: 28px!important;
+    line-height: 1;
+    color: #3363AF !important; 
+    border: none;
+    border-radius: none;
+    padding: 2px 8px;
+}
+
+.product .slick-prev {
+    bottom: -40px!important;
+    top: auto !important;
+    left:  40%;
+    transform: translate(-40%, 0);
+}
+
+.product .slick-prev:before {
+    content: "\f104";
+    font-family: "FontAwesome"; 
+    font-size: 28px!important;
+    line-height: 1;
+    color: #3363AF !important; 
+    border: none;
+    border-radius: none;
+    padding: 2px 8px;
 }

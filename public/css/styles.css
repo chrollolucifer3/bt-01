@@ -27,7 +27,7 @@ a {
 
 .medium-font {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 600;
     color: #3363AF;
 }
 
@@ -44,7 +44,7 @@ a {
 }
 
 .text-orange {
-    color: #FFB800!important;
+    color: #FFB800 !important;
 }
 
 /* phần header */
@@ -111,13 +111,6 @@ nav {
             font-size: 12px;
         }
     }
-}
-
-.nav-logo img {
-    width: 27.03px;
-    height: 26.02px;
-    top: -50%;
-    right: -25px;
 }
 
 .nav-faded {
@@ -193,12 +186,10 @@ nav {
 }
 
 .product__items {
-    /* width: 150px!important;
-    height: 150px; */
-    height: 147px;
-    width: 153 !important;
+    width: 150px !important;
+    height: 150px;
     border-radius: 50%;
-    border: 5px solid #8D8D8D;
+    border: 4px solid #8D8D8D;
     overflow: hidden;
 
     img {
@@ -236,33 +227,34 @@ nav {
 .contact {
     background-image: url('/public/img/lienlac.jpg');
     width: 100%;
-    height: 433px;
+    /* height: 433px; */
     background-size: cover;
     position: relative;
 }
 
 .contact__title {
     gap: 13px;
-    padding-top: 60px;
+    margin-left: 20%;
+}
+
+.contact .contact__button {
+    margin-left: 45%;
+
 }
 
 .contact__button {
-    position: absolute;
-    left: 55%;
+    /* position: absolute;
+    left: 55%; */
+    /* text-align: end!important; */
+    /* margin-left: 45%; */
 
     button {
         width: 331px;
         height: 91px;
         border-radius: 20px;
-        gap: 28px;
+        /* gap: 20px; */
         border: none;
         color: white;
-
-        & svg {
-            width: 26px;
-            height: 26px;
-            margin-left: 32px;
-        }
 
         span {
             font-size: 28px;
@@ -273,19 +265,21 @@ nav {
 
 .btn-blue {
     background-color: #3363AF;
-    margin-top: 48px;
 }
 
 .btn-orange {
     background-color: #FFB800;
-    margin-top: 36px;
+}
+
+.contact-2 {
+    display: none;
 }
 
 /* phần partner */
 
-.partner__content {
+/* .partner__content {
     padding: 60px 0;
-}
+} */
 
 
 /* phần prize  */
@@ -300,13 +294,8 @@ nav {
 }
 
 .prize__color {
-    background-color: #fff;
-    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.8);
     height: 100%;
-}
-
-.price__title {
-    padding-top: 44px;
 }
 
 /* phần evaluate */
@@ -315,19 +304,11 @@ nav {
     background: linear-gradient(180deg, rgba(195, 205, 226, 0.5) 0%, rgba(234, 235, 237, 0.5) 100%);
 }
 
-.evaluate__title {
+/* .evaluate__title {
     padding-top: 40px;
-
-}
-
-.star {
-    margin: 0 10px;
-    height: 22px;
-}
+} */
 
 .card__items {
-    width: 245px;
-    height: 308px;
     background-color: #3363AF;
     border-radius: 10px;
     font-family: Inter;
@@ -337,33 +318,33 @@ nav {
     position: relative;
 }
 
-.evaluate__card {
-    gap: 27px;
+/* .evaluate__card {
     padding: 120px 0 65px 0;
-}
+} */
 
 .card__title {
     color: #fff;
-    padding-top: 74px;
+    padding-top:45px ;
 }
 
 .card__content {
     line-height: 19.36px;
     text-align: center;
     color: #AFCEFF;
-    padding: 18px 20px 0 20px;
+    padding: 18px 10px 0 10px;
+}
+
+.card__img>img {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    border: 1.5px solid #3363AF;
 }
 
 .card__img {
-    img {
-        position: absolute;
-        width: 112px;
-        height: 112px;
-        border-radius: 50%;
-        border: 1.5px solid #3363AF;
-        top: -56px;
-        left: 66.5px;
-    }
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .other-1,
@@ -372,19 +353,24 @@ nav {
 }
 
 .other-1 {
-    top: -55px;
-    left: 42px;
+    top: 0;
+    left: -25px;
 }
 
 .other-2 {
-    top: -55px;
-    right: 42px;
+    top: 0;
+    right: -25px;
 }
 
 /* phần new  */
 
 .news__content {
     padding: 100px 0;
+}
+
+.news .page__card img {
+    object-fit: cover;
+    width: 100%;
 }
 
 
@@ -458,7 +444,7 @@ footer {
     line-height: 17.5px;
     text-align: left;
     color: #3363AF;
-    height: 45px!important;
+    height: 45px !important;
 }
 
 .footer-bot__icon i {
@@ -475,12 +461,13 @@ footer {
 
 /* dùng chung */
 
-.introduce__breadcrumb, .page__breadcrumb {
+.introduce__breadcrumb,
+.page__breadcrumb {
     gap: 10px;
 }
 
 .gradient {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 15.2%, rgba(0, 0, 0, 0.8) 100%);  
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 15.2%, rgba(0, 0, 0, 0.8) 100%);
     top: 0;
     left: 0;
     width: 100%;
@@ -540,11 +527,12 @@ footer {
 }
 
 .more {
-    display: none!important;
+    display: none !important;
     border: 2px solid #3363AF;
     border-radius: 11px;
     width: 223px;
     height: 65px;
+
     a {
         font-size: 16px;
         font-weight: 700;
@@ -554,6 +542,69 @@ footer {
     }
 }
 
+.pageProduct__content .more,
+.product .more {
+    display: flex !important;
+}
+
 .recruitment__content {
     font-family: Open Sans;
+}
+
+.parameter {
+    overflow: scroll;
+    position: relative;
+}
+
+.parameter img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* phần search */
+
+.search-input {
+    display: none;
+}
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 300px;
+}
+
+.search-input .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #3363AF;
+    transition: 0.3s ease;
+}
+
+.input::placeholder {
+    color: #9e9ea7;
+}
+
+.input:focus, .search-input input:hover {
+    outline: none;
+    border-color: #3363AF;
+    background-color: #fff;
+}
+
+.search-input .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
 }

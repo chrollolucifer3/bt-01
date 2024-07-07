@@ -1,0 +1,35 @@
+.connect__content .col-md-6 {
+    padding: 0!important;
+}
+
+.connect__form {
+    width: 75%;
+    margin: 0 auto;
+    .col-md-6, .col-md-12 {
+        padding: 8px!important;
+        input {
+            border: 1px solid #DCDCDC;
+            border-radius: 7px;
+            padding: 2px 10px;
+        }
+    }
+}
+
+.connect__form textarea {
+    border: 1px solid #DCDCDC;
+    padding: 2px 10px;
+}
+
+.connect__form label {
+    border: 1px solid #DCDCDC;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.connect__form button {
+    padding: 10px 60px;
+    background-color: #3363AF;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}

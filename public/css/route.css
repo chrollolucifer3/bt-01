@@ -13,7 +13,7 @@
     gap: 40px;
 }
 
-li {
+route__content__item li {
     list-style-type: disc;
 }
 
@@ -40,6 +40,6 @@ li {
     opacity: 0.1;
     width: 523px;
     height: 523px;
-    z-index: 111111;
+    z-index: 1;
 }
 

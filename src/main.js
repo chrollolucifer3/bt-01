@@ -3,19 +3,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const navMenu = document.querySelector('.nav-menu');
     const exitIcon = document.querySelector('.exit-icon');
 
-    const checkWidthAndSetMenuState = () => {
-        if (window.innerWidth < 992) {
-            navMenu.classList.add('hide');
-            navMenu.classList.remove('show');
-        } else {
-            navMenu.classList.add('show');
-            navMenu.classList.remove('hide');
-        }
-    };
-
-    // Set initial state
-    checkWidthAndSetMenuState();
-
     menuIcon.addEventListener('click', () => {
         if (window.innerWidth < 992) {
             navMenu.classList.toggle('show');
@@ -30,9 +17,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 
-    window.addEventListener('resize', () => {
-        checkWidthAndSetMenuState();
-    });
+    // window.addEventListener('resize', () => {
+    //     checkWidthAndSetMenuState();
+    // });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
